@@ -1,12 +1,4 @@
-for filename in ./darkflow/*
-do
-  echo $filename
-  git add $filename
-  git commit -m 'Adding Darkflow integration'
-  git push --force --verbose
-done;
-
-for filename in 'LICENSE' 'MASTER.sh' 'build/' 'cfg/' 'flow' 'labels.txt' 'proc.py' 'setup.py' 'test/'
+for filename in 'icon.png' 'js/' 'manifest.json' 'templates/' 'timestamps.txt' 'ytDownloadServer.py' 'ytDownloadServer.pyc'
 do
   echo $filename
   git add $filename
