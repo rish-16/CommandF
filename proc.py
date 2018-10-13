@@ -9,7 +9,7 @@ options = {
 
 tfnet = TFNet(options)
 
-cap = cv2.VideoCapture('video.mp4')
+cap = cv2.VideoCapture('video.mp4') # Video is not included in repo
 fps = cap.get(cv2.CAP_PROP_FPS)
 length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 
