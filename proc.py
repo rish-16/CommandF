@@ -3,7 +3,7 @@ from darkflow.net.build import TFNet
 
 options = {
 	'model': 'cfg/yolo.cfg',
-	'load': 'bin/yolov2.weights',
+	'load': 'bin/yolov2.weights', # Weights file cannot be uploaded to GitHub due to file size
 	'threshold': 0.3
 }
 
