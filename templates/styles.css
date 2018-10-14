@@ -1,0 +1,122 @@
+#loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#time-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+#search-choose {
+    width: auto;
+    min-width: 90px;
+    height: 40px;
+    font-weight: 600;
+    background: none;
+    font-family: Avenir Next;
+    font-size: 22px;
+    border: none;
+}
+
+body {
+    font-family: Avenir Next;
+    min-width: 400px;
+    border-radius: 100px;
+}
+
+#container{
+    text-align: left;
+}
+
+#search-term {
+    font-family: Avenir Next;
+    font-weight: 500;
+    width: 90%;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid rgba(172, 170, 170, 0.3);
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#search-term:focus{
+    outline: none;
+}
+
+#desc {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0 0 0;
+    margin-left: 10px;
+}
+
+#search-term:focus::-webkit-input-placeholder { color:transparent; }
+#search-term:focus:-moz-placeholder { color:transparent; }
+#search-term:focus::-moz-placeholder { color:transparent; }
+#search-term:focus:-ms-input-placeholder { color:transparent; }
+
+#submit {
+    width: 100px;
+    height: 45px;
+    font-family: Avenir Next;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 100px;
+    margin: 10px 0;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+#submit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:focus{
+    outline: none;
+}
+
+li {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#no-timestamps-found {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-left: 10px;
+    display: none;
+}
+
+a {
+    color: #32E3FF;
+    opacity: 0.7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:visited{
+    color: #32E3FF;
+    opacity: 0.8;
+}
+
+a:hover{
+    opacity: 1;
+}
